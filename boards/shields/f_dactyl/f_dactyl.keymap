@@ -41,7 +41,7 @@ behaviors {
 
                 &kp Z              &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt QMARK SLASH
 
-                                   &lt NAV ESC     &mt LALT SPACE &kp LSHIFT      &kp BACKSPACE   &kp RETURN      &mo BRACK
+                                   &lt NAV ESC     &mt LALT SPACE &td0      &kp BACKSPACE   &kp RETURN      &mo BRACK
 
                                                    &kp LCTRL           &none           &none           &none
             >;
