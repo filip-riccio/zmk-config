@@ -41,11 +41,11 @@
         symbols {
             label = "BRACK";
             bindings = <
-                &kp TAB            &kp EXCL        &kp AT          &kp HASH        &kp DOUBLE_QUOTES  &kp PLUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+                &kp DOLLAR       &kp N1         &kp N2         &kp N3         &kp DOT   &kp PLUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
 
-                &kp UNDERSCORE     &kp DOLLAR      &kp PERCENT     &kp CARET       &kp SINGLE_QUOTE   &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE      &kp RIGHT_BRACE       &kp MINUS
+                  &kp UNDERSCORE          &kp N4         &kp N5         &kp N6         &kp N0   &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE      &kp RIGHT_BRACE       &kp MINUS
 
-                &kp TILDE          &kp AMPS        &kp STAR        &kp QMARK       &kp GRAVE          &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &trans
+                 &trans         &kp N7         &kp N8         &kp N9         &trans         &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp PIPE
 
                                    &mo NUM       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
 
@@ -56,11 +56,11 @@
         numbers {
             label = "NUM";
             bindings = <
-                &trans             &trans          &trans          &trans          &trans          &kp DOT        &kp N1         &kp N2         &kp N3         &trans
+                          &kp TAB            &kp EXCL        &kp AT          &kp HASH        &kp DOUBLE_QUOTES &trans             &trans          &trans          &trans          &trans 
 
-                &trans             &trans          &trans          &trans          &trans          &kp N0         &kp N4         &kp N5         &kp N6         &kp MINUS
+                          &kp UNDERSCORE     &kp DOLLAR      &kp PERCENT     &kp CARET       &kp SINGLE_QUOTE &trans             &trans          &trans          &trans          &trans 
 
-                &trans             &trans          &trans          &trans          &trans          &trans         &kp N7         &kp N8         &kp N9         &kp PIPE
+                          &kp TILDE          &kp AMPS        &kp STAR        &kp QMARK       &kp GRAVE   &trans             &trans          &trans          &trans          &trans 
 
                                    &to BASE        &none           &none           &kp BACKSPACE   &kp RETURN     &trans
 
@@ -77,7 +77,7 @@
 
                 &kp LG(Z)          &kp LG(X)       &kp LG(C)       &kp LG(V)       &trans          &trans         &trans         &trans         &trans         &trans
 
-                                   &none           &kp SPACE       &mt LSHIFT ESC  &mt LCTRL BSPC  &kp RETURN  &tog MOUSE
+                                   &none           &kp SPACE       &mt LSHIFT ESC  &mt LCTRL BSPC  &kp RETURN  &mo NUM 
 
                                                    &none           &none           &none           &none
             >;
