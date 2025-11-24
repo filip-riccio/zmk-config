@@ -20,6 +20,15 @@
             bindings = <&kp LC(J)>;
         };
     };
+
+behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHIFT>, <&mo NUM>;
+        };
+    };
       keymap {
         compatible = "zmk,keymap";
 
@@ -32,9 +41,9 @@
 
                 &kp Z              &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt QMARK SLASH
 
-                                   &lt NAV ESC     &mt LCTRL SPACE &kp LSHIFT      &kp BACKSPACE   &kp RETURN      &mo BRACK
+                                   &lt NAV ESC     &mt LALT SPACE &kp LSHIFT      &kp BACKSPACE   &kp RETURN      &mo BRACK
 
-                                                   &none           &none           &none           &none
+                                                   &kp LCTRL           &none           &none           &none
             >;
         };
 
@@ -49,7 +58,7 @@
 
                                    &mo NUM       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
 
-                                                   &bt BT_CLR_ALL  &bootloader     &bootloader     &to VINCI
+                                                   &bt BT_CLR_ALL  &bootloader     &bootloader     &none
             >;
         };
 
@@ -107,7 +116,7 @@
 
                 &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
 
-                                   &kp LSHIFT      &mt LALT SPACE  &kp LCMD        &kp BACKSPACE   &kp RETURN     &mo BRACK
+                                   &kp LCMD      &mt LALT SPACE  &kp LSHIFT        &kp BACKSPACE   &kp RETURN     &mo BRACK
 
                                                    &kp LCTRL       &to BASE        &none     &none
             >;
