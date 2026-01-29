@@ -1,6 +1,0 @@
-if SHIELD_HALF
-
-config ZMK_KEYBOARD_NAME
-    default "half"
-
-endif # SHIELD_HALF
