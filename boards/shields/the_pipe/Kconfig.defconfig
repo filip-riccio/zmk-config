@@ -1,0 +1,6 @@
+if SHIELD_THE_PIPE
+
+config ZMK_KEYBOARD_NAME
+    default "the-pipe"
+
+endif # SHIELD_THE_PIPE
