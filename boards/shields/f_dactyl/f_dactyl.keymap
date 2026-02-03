@@ -27,6 +27,14 @@ behaviors {
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&mo BRACK>;
         };
+        mt1: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&kp>;
+            display-name = "Mod-Tap";
+        };
     };
       keymap {
         compatible = "zmk,keymap";
