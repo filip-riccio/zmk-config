@@ -16,7 +16,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <12 30>;
+            key-positions = <11 30>;
             bindings = <&kp LC(J)>;
         };
     };
