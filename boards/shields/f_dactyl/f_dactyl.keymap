@@ -9,7 +9,6 @@
 #define NUM   2
 #define NAV   3
 #define MOUSE 4
-#define VINCI 5
 
 / {
   combos {
@@ -26,7 +25,7 @@ behaviors {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHIFT>, <&mo NUM>;
+            bindings = <&kp LSHIFT>, <&mo BRACK>;
         };
     };
       keymap {
@@ -104,21 +103,6 @@ behaviors {
                                    &to BASE        &tog MOUSE      &none           &none           &mkp LCLK      &mkp RCLK
 
                                                    &none           &none           &none           &none
-            >;
-        };
-
-        davinci {
-            label = "VINCI";
-            bindings = <
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                                   &kp LCMD      &mt LALT SPACE  &kp LSHIFT        &kp BACKSPACE   &kp RETURN     &mo BRACK
-
-                                                   &kp LCTRL       &to BASE        &none     &none
             >;
         };
 
