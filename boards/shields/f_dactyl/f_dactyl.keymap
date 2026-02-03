@@ -80,7 +80,7 @@ behaviors {
         navigation {
             label = "NAV";
             bindings = <
-                &kp F4            &kp F5         &kp F6         &kp F7         &kp LG(SPACE)         &trans         &trans         &kp HOME       &kp END        &trans
+                &kp F4            &kp F5         &kp F6         &kp F7         &kp LG(T)         &trans         &trans         &kp HOME       &kp END        &trans
 
                 &kp LG(A)          &kp F1          &kp F2          &kp F3          &kp LG(SPACE)   &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans
 
