@@ -57,11 +57,11 @@ behaviors {
         symbols {
             label = "BRACK";
             bindings = <
-                &kp DOLLAR       &kp N1         &kp N2         &kp N3         &kp DOT   &kp PLUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+                &kp SPACE       &kp N1         &kp N2         &kp N3         &kp DOT   &kp PLUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
 
-                  &kp UNDERSCORE          &kp N4         &kp N5         &kp N6         &kp N0   &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE      &kp RIGHT_BRACE       &kp MINUS
+                  &kp BACKSPACE          &kp N4         &kp N5         &kp N6         &kp N0   &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE      &kp RIGHT_BRACE       &kp MINUS
 
-                 &trans         &kp N7         &kp N8         &kp N9         &trans         &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp PIPE
+                 &kp RETURN         &kp N7         &kp N8         &kp N9         &kp MINUS         &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp PIPE
 
                                    &mo NUM       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
 
