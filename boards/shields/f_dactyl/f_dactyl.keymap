@@ -36,97 +36,97 @@ behaviors {
             display-name = "Mod-Tap";
         };
     };
-      keymap {
-        compatible = "zmk,keymap";
+     keymap {
+    compatible = "zmk,keymap";
 
-        default_layer {
-            label = "BASE";
-            bindings = <
-                &mt TAB Q          &kp W           &kp E           &kp R           &kp T           &kp Y           &kp U           &kp I           &kp O           &kp P
+    default_layer {
+        label = "BASE";
+        bindings = <
+            &mt TAB Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I    &kp O    &kp P
 
-                &kp A              &kp S           &kp D           &kp F           &kp G           &kp H           &kp J           &kp K           &kp L           &mt COLON SEMI
+            &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K    &kp L    &mt COLON SEMI
 
-                &kp Z              &kp X           &kp C           &kp V           &kp B           &kp N           &kp M           &kp COMMA       &kp DOT         &mt QMARK SLASH
+            &kp Z    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M    &kp COMMA    &kp DOT    &mt QMARK SLASH
 
-                                   &lt NAV ESC     &mt LALT SPACE &td0      &kp BACKSPACE   &kp RETURN      &mo BRACK
+                &lt NAV ESC    &mt LALT SPACE    &td0    &kp BACKSPACE    &kp RETURN    &mo BRACK
 
-                                                   &kp LCTRL           &none           &none           &none
-            >;
-        };
-
-        symbols {
-            label = "BRACK";
-            bindings = <
-                &kp SPACE       &kp N1         &kp N2         &kp N3         &kp DOT   &kp PLUS       &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-
-                  &kp BACKSPACE          &kp N4         &kp N5         &kp N6         &kp N0   &kp LESS_THAN  &kp GREATER_THAN &kp LEFT_BRACE      &kp RIGHT_BRACE       &kp MINUS
-
-                 &kp RETURN         &kp N7         &kp N8         &kp N9         &kp MINUS         &kp MINUS      &kp SLASH      &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp PIPE
-
-                                   &mo NUM       &kp SPACE       &kp LCMD        &kp BACKSPACE      &kp RETURN     &none
-
-                                                   &bt BT_CLR_ALL  &bootloader     &bootloader     &none
-            >;
-        };
-
-        numbers {
-            label = "NUM";
-            bindings = <
-                          &kp TAB            &kp EXCL        &kp AT          &kp HASH        &kp DOUBLE_QUOTES &trans             &trans          &trans          &trans          &trans 
-
-                          &kp UNDERSCORE     &kp DOLLAR      &kp PERCENT     &kp CARET       &kp SINGLE_QUOTE &trans             &trans          &trans          &trans          &trans 
-
-                          &kp TILDE          &kp AMPS        &kp STAR        &kp QMARK       &kp GRAVE   &trans             &trans          &trans          &trans          &trans 
-
-                                   &to BASE        &none           &none           &kp BACKSPACE   &kp RETURN     &trans
-
-                                                   &none           &none           &none           &none
-            >;
-        };
-
-        navigation {
-            label = "NAV";
-            bindings = <
-                &kp F4            &kp F5         &kp F6         &kp F7         &kp LG(T)         &trans         &trans         &kp HOME       &kp END        &trans
-
-                &kp LG(A)          &kp F1          &kp F2          &kp F3          &kp LG(SPACE)   &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT      &trans
-
-                &kp LG(Z)          &kp LG(X)       &kp LG(C)       &kp LG(V)       &trans          &trans         &trans         &trans         &trans         &trans
-
-                                   &none           &kp SPACE       &mt LSHIFT ESC  &mt LCTRL BSPC  &kp RETURN  &mo NUM 
-
-                                                   &none           &none           &none           &none
-            >;
-        };
-
-        mouse {
-            label = "MOUSE";
-            bindings = <
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                &trans             &trans          &trans          &trans          &trans          &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP   &mmv MOVE_RIGHT &trans
-
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                                   &to BASE        &tog MOUSE      &none           &none           &mkp LCLK      &mkp RCLK
-
-                                                   &none           &none           &none           &none
-            >;
-        };
-
-        blank {
-            label = "BLANK";
-            bindings = <
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                &trans             &trans          &trans          &trans          &trans          &trans         &trans         &trans         &trans         &trans
-
-                                   &none           &none           &none           &none           &none          &none
-
-                                                   &none           &none           &none           &none
-            >;
-        };
+                    &kp LCTRL    &none    &none    &none
+        >;
     };
+
+    symbols {
+        label = "BRACK";
+        bindings = <
+            &kp TAB    &kp EXCL    &kp AT    &kp HASH    &kp DOUBLE_QUOTES    &kp PLUS    &kp EQUAL    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS    &kp BACKSLASH
+
+            &kp UNDERSCORE    &kp DOLLAR    &kp PERCENT    &kp CARET    &kp SINGLE_QUOTE    &kp LESS_THAN    &kp GREATER_THAN    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS
+
+            &kp TILDE    &kp AMPS    &kp STAR    &kp QMARK    &kp GRAVE    &kp MINUS    &kp SLASH    &kp LEFT_BRACKET    &kp RIGHT_BRACKET    &kp PIPE
+
+                &to BASE    &none    &none    &kp BACKSPACE    &kp RETURN    &none
+
+                    &none    &none    &bootloader    &none
+        >;
+    };
+
+    numbers {
+        label = "NUM";
+        bindings = <
+            &kp SPACE    &kp N1    &kp N2    &kp N3    &kp DOT    &trans    &trans    &trans    &trans    &trans
+
+            &kp BACKSPACE    &kp N4    &kp N5    &kp N6    &kp N0    &trans    &trans    &trans    &trans    &trans
+
+            &kp RETURN    &kp N7    &kp N8    &kp N9    &kp MINUS    &trans    &trans    &trans    &trans    &trans
+
+                &mo NUM    &kp SPACE    &kp LCMD    &kp BACKSPACE    &kp RETURN    &trans
+
+                    &bt BT_CLR_ALL    &bootloader    &none    &none
+        >;
+    };
+
+    navigation {
+        label = "NAV";
+        bindings = <
+            &kp F4    &kp F5    &kp F6    &kp F7    &kp LG(T)    &trans    &trans    &kp HOME    &kp END    &trans
+
+            &kp LG(A)    &kp F1    &kp F2    &kp F3    &kp LG(SPACE)    &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT    &trans
+
+            &kp LG(Z)    &kp LG(X)    &kp LG(C)    &kp LG(V)    &trans    &trans    &trans    &trans    &trans    &trans
+
+                &none    &kp SPACE    &mt LSHIFT ESC    &mt LCTRL BSPC    &kp RETURN    &mo NUM
+
+                    &none    &none    &none    &none
+        >;
+    };
+
+    mouse {
+        label = "MOUSE";
+        bindings = <
+            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+
+            &trans    &trans    &trans    &trans    &trans    &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP    &mmv MOVE_RIGHT    &trans
+
+            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+
+                &to BASE    &tog MOUSE    &none    &none    &mkp LCLK    &mkp RCLK
+
+                    &none    &none    &none    &none
+        >;
+    };
+
+    blank {
+        label = "BLANK";
+        bindings = <
+            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+
+            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+
+            &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
+
+                &none    &none    &none    &none    &none    &none
+
+                    &none    &none    &none    &none
+        >;
+    };
+};
 };
