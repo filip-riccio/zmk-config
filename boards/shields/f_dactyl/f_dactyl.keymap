@@ -147,7 +147,7 @@ behaviors {
 
 			  &kp LSHFT    &kp Z    &kp X    &kp C    &kp V    &kp N    &kp M    &kp COMMA    &kp DOT    &mt QMARK FSLH
 
-						     &mo GAMENUM    &kp SPACE    &kp LSHFT    &kp BSPC    &kp RET    &mo BRACK
+						     &lt GAMENUM ESCAPE    &kp SPACE    &kp LSHFT    &kp BSPC    &kp RET    &mo BRACK
 
 				                        &none    &to BASE    &none    &none
 			>;
