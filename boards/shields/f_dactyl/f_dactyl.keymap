@@ -17,9 +17,55 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <11 30>;
-            bindings = <&kp LC(J)>;
+            key-positions = <11 31>;
+            bindings = <&kp LC(N)>;
         };
+		combo_nav1 {
+            timeout-ms = <50>;
+            key-positions = <2 31>;
+            bindings = <&kp LGUI(1)>;
+        };
+		combo_nav2 {
+            timeout-ms = <50>;
+            key-positions = <3 31>;
+            bindings = <&kp LGUI(2)>;
+        };
+		combo_nav3 {
+            timeout-ms = <50>;
+            key-positions = <4 31>;
+            bindings = <&kp LGUI(3)>;
+        };
+		combo_nav4 {
+            timeout-ms = <50>;
+            key-positions = <12 31>;
+            bindings = <&kp LGUI(4)>;
+        };
+		combo_nav5 {
+            timeout-ms = <50>;
+            key-positions = <13 31>;
+            bindings = <&kp LGUI(5)>;
+        };
+		combo_nav6 {
+            timeout-ms = <50>;
+            key-positions = <14 31>;
+            bindings = <&kp LGUI(6)>;
+        };
+		combo_nav7 {
+            timeout-ms = <50>;
+            key-positions = <22 31>;
+            bindings = <&kp LGUI(7)>;
+        };
+		combo_nav8 {
+            timeout-ms = <50>;
+            key-positions = <23 31>;
+            bindings = <&kp LGUI(8)>;
+        };
+		combo_nav9 {
+            timeout-ms = <50>;
+            key-positions = <24 31>;
+            bindings = <&kp LGUI(9)>;
+        };
+
     };
 
 behaviors {
