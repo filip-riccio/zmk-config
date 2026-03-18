@@ -5,7 +5,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <behaviors/mouse_keys.dtsi>
 
-#include "f_dactyl-layouts.dtsi"
+#include "zeus-layouts.dtsi"
 
 / {
     chosen {
