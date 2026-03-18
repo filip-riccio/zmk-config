@@ -1,0 +1,5 @@
+config SHIELD_ZEUS_LEFT
+    def_bool $(shields_list_contains,zeus_left)
+
+config SHIELD_ZEUS_RIGHT
+    def_bool $(shields_list_contains,zeus_right)
