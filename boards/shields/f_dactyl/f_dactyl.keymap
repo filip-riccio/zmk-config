@@ -97,7 +97,7 @@ behaviors {
 		  symbols {
 			label = "BRACK";
 			bindings = <
-			  &kp TAB    &kp EXCL    &kp AT    &kp HASH    &kp DQT    &kp PLUS    &kp EQUAL    &kp LPAR    &kp RPAR    &kp BSLH
+			  &kp TILDE    &kp EXCL    &kp AT    &kp HASH    &kp DQT    &kp PLUS    &kp EQUAL    &kp LPAR    &kp RPAR    &kp BSLH
 
 			  &kp UNDER    &kp DLLR    &kp PRCNT    &kp CARET    &kp SQT    &kp LT    &kp GT    &kp LBRC    &kp RBRC    &kp MINUS
 
