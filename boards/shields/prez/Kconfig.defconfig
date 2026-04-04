@@ -1,0 +1,6 @@
+if SHIELD_PREZ
+
+config ZMK_KEYBOARD_NAME
+    default "prez"
+
+endif # SHIELD_PREZ

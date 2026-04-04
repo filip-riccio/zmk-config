@@ -1,0 +1,2 @@
+config SHIELD_PREZ
+    def_bool $(shields_list_contains,prez)
