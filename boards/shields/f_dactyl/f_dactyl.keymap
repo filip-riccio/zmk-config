@@ -20,20 +20,15 @@
             key-positions = <11 30>;
             bindings = <&kp LC(N)>;
         };
-		combo_nav1 {
+		combo_bs_word {
             timeout-ms = <50>;
-            key-positions = <1 30>;
-            bindings = <&kp LG(N1)>;
+            key-positions = <1 33>;
+            bindings = <&kp LC(BSPC)>;
         };
-		combo_nav2 {
+		combo_bs_line {
             timeout-ms = <50>;
-            key-positions = <2 30>;
-            bindings = <&kp LG(N2)>;
-        };
-		combo_nav3 {
-            timeout-ms = <50>;
-            key-positions = <3 30>;
-            bindings = <&kp LG(N3)>;
+            key-positions = <3 33>;
+            bindings = <&kp LG(BSPC)>;
         };
 
     };
@@ -90,7 +85,7 @@ behaviors {
 
 						     &lt NAV ESC    &lt NUM SPACE    &td0    &kp BSPC    &kp RET    &mo BRACK
 
-				                        &none    &to GAME    &none    &none
+				                        &none    &none    &none    &none
 			>;
 		  };
 
